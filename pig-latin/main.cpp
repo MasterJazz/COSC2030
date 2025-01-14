@@ -1,7 +1,7 @@
 //
 // Name
 // Date
-// Hello World Programming Project
+// Pig Latin Programming Project
 // COSC 2030
 //
 

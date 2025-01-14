@@ -1,7 +1,7 @@
 //
 // Name
 // Date
-// Hello World Programming Project
+// Movie Data Programming Project
 // COSC 2030
 //
 

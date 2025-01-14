@@ -2,7 +2,7 @@
 // Name
 // Date
 // Fix the Errors #3 Programming Project
-// COSC 1030
+// COSC 2030
 //
 
 // This program takes two values from the user and then swaps them
