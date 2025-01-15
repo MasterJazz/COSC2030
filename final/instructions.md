@@ -144,7 +144,7 @@ int main()
  Enter the amount of advanced pay for this salesperson: __1000__ [Enter]    
  
  Pay Results    
- `----------`  
+ `----------`   
  Sales: $19600.00     
  Commission Rate: 0.14     
  Commission: $2744.00     
@@ -157,7 +157,7 @@ int main()
  Enter the amount of advanced pay for this salesperson: __1000__ [Enter]    
      
  Pay Results    
-`----------`
+`----------`    
  Sales: $9000.00     
  Commission Rate: 0.05     
  Commission: $450.00     
