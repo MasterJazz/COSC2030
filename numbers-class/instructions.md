@@ -6,7 +6,7 @@ Design a class `Numbers` that can be used to translate whole dollar amounts in t
 
 and a static array of string objects that specify how to translate key dollar amounts into the desired format. For example, you might use static strings such as
 
-`string lessThan20[20] = {"zero", "one", ..., "eighteen", "nineteen"};    
+`string lessThan20[20] = {"zero", "one", ..., "eighteen", "nineteen"}; < br/>
 string hundred = "hundred";    
 string thousand = "thousand";`
 
