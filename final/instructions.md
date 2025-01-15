@@ -2,43 +2,43 @@
 
 ## Case Study: Sales Commission
 
-Crazy Al’s Computer Emporium is a retail seller of home computers. The sales staff at Crazy Al’s works strictly on commission. At the end of the month, each salesperson’s commission is calculated according to Table 1. 
+Crazy Alâ€™s Computer Emporium is a retail seller of home computers. The sales staff at Crazy Alâ€™s works strictly on commission. At the end of the month, each salespersonâ€™s commission is calculated according to Table 1. 
 
 __Table 1. Commission Rates__
 | Sales This Month | Commission Rate |
 | ---------------- | --------------- |
 | Less than $10,000 | 5% |
-| $10,000 – $14,999 | 10% |
-| $15,000 – $17,999 | 12% |
-| $18,000 – $21,999 | 14% |
+| $10,000 â€“ $14,999 | 10% |
+| $15,000 â€“ $17,999 | 12% |
+| $18,000 â€“ $21,999 | 14% |
 | $22,000 or more | 16% | 
 
 For example, a salesperson with $16,000 in monthly sales will earn a 12 percent commission ($1,920.00). Another salesperson with $20,000 in monthly sales will earn a 14 percent commission ($2,800.00). 
 
-Because the staff only gets paid once per month, Crazy Al’s allows each employee to take up to $1,500 per month in advance. When sales commissions are calculated, the amount of each employee’s advanced pay is subtracted from the commission. If any salesperson’s commissions are less than the amount of their advance, they must reimburse Crazy Al’s for the difference. 
+Because the staff only gets paid once per month, Crazy Alâ€™s allows each employee to take up to $1,500 per month in advance. When sales commissions are calculated, the amount of each employeeâ€™s advanced pay is subtracted from the commission. If any salespersonâ€™s commissions are less than the amount of their advance, they must reimburse Crazy Alâ€™s for the difference. 
 
-Here are two examples: Beverly and John have $21,400 and $12,600 in sales, respectively. Beverly’s commission is $2,996 and John’s commission is $1,260. Both Beverly and John took $1,500 in advance pay. At the end of the month, Beverly gets a check for $1,496, but John must pay $240 back to Crazy Al’s. 
+Here are two examples: Beverly and John have $21,400 and $12,600 in sales, respectively. Beverlyâ€™s commission is $2,996 and Johnâ€™s commission is $1,260. Both Beverly and John took $1,500 in advance pay. At the end of the month, Beverly gets a check for $1,496, but John must pay $240 back to Crazy Alâ€™s. 
 
-You’ve been asked to write a program that eases the task of calculating the end-of-month commission. Table 2 lists the variables needed.
+Youâ€™ve been asked to write a program that eases the task of calculating the end-of-month commission. Table 2 lists the variables needed.
 
 __Table 2. Variables__
 | Variable | Description |
 | -------- | ----------- |
-| `sales` | A double variable to hold a salesperson’s total monthly sales. |
-| `rate` | A double variable to hold the salesperson’s commission rate. |
+| `sales` | A double variable to hold a salespersonâ€™s total monthly sales. |
+| `rate` | A double variable to hold the salespersonâ€™s commission rate. |
 | `commission` | A double variable to hold the commission. |
-| 'advance` | A double variable to hold the amount of advanced pay the salesperson has drawn. |
-| `pay` | A double variable to hold the salesperson’s amount of pay. |
+| `advance` | A double variable to hold the amount of advanced pay the salesperson has drawn. |
+| `pay` | A double variable to hold the salespersonâ€™s amount of pay. |
 
 ### Program Design 
 
 The program must perform the following general steps: 
 
-1. Ask the user for the salesperson’s monthly sales. 
+1. Ask the user for the salespersonâ€™s monthly sales. 
 2. Ask the user for the amount of advance pay the salesperson has drawn from the company. 
 3. Determine the commission rate. 
 4. Calculate the commission. 
-5. Calculate the salesperson’s pay by subtracting the advanced pay from the commission. If the amount is negative, the salesperson must reimburse the company.
+5. Calculate the salespersonâ€™s pay by subtracting the advanced pay from the commission. If the amount is negative, the salesperson must reimburse the company.
 
 ### Determine the Commission Rate
 
@@ -61,9 +61,9 @@ The following pseudocode expresses the algorithm:
 
 Before attempting to code the problem, you should first model it entirely in pseudocode: 
 
-	Ask user to enter the salesperson’s monthly sales. 
+	Ask user to enter the salespersonâ€™s monthly sales. 
 	Store input in sales. 
-	Ask user to enter the salesperson’s amount of advanced pay. 
+	Ask user to enter the salespersonâ€™s amount of advanced pay. 
 	Store input in advance. 
 	If sales is less than $10,000 
 		rate is 5%. 
@@ -76,7 +76,7 @@ Before attempting to code the problem, you should first model it entirely in pse
 	else  
 		rate is 16%. 
 	commission = sales * rate. 
-	pay = commission – advance. 
+	pay = commission â€“ advance. 
 	Display results. 
 
 The last step is to expand the pseudocode into the final program, which is shown below.
@@ -123,7 +123,7 @@ int main()
 	 commission = sales * rate;
 
 	 // Calculate the salesperson's pay.
-	 pay = commission – advance;
+	 pay = commission â€“ advance;
 
 	 // Display the results.
 	 cout << fixed << showpoint << setprecision(2);
@@ -144,7 +144,7 @@ int main()
  Enter the amount of advanced pay for this salesperson: __1000__ [Enter]    
  
  Pay Results    
- ----------    
+ `----------`  
  Sales: $19600.00     
  Commission Rate: 0.14     
  Commission: $2744.00     
@@ -157,7 +157,7 @@ int main()
  Enter the amount of advanced pay for this salesperson: __1000__ [Enter]    
      
  Pay Results    
- ----------    
+`----------`
  Sales: $9000.00     
  Commission Rate: 0.05     
  Commission: $450.00     
