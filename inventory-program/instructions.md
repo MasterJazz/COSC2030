@@ -14,4 +14,4 @@ The program should have a menu that allows the user to perform the following tas
 * Display any record in the file
 * Change any record in the file
 
-_Input Validation: the program should not accept quantities, or wholesale or retail costs, less than 0. The program should not accept dates that the programmer determines are unreasonable.
+_Input Validation: the program should not accept quantities, or wholesale or retail costs, less than 0. The program should not accept dates that the programmer determines are unreasonable._
