@@ -44,13 +44,13 @@ The commission rate is determined by the monthly sales amount. An if/else if sta
 
 The following pseudocode expresses the algorithm: 
 
-	`_If sales is less than $10,000_`
+	`If sales is less than $10,000`
 		`_rate is 5%._`
-	`_else if sales is less than $15,000_`
+	`else if sales is less than $15,000`
 		`_rate is 10%._`
-	`_else if sales is less than $18,000_`
+	`else if sales is less than $18,000`
 		`_rate is 12%._`
-	`_else if sales is less than $22,000_`
-		`_rate is 14%._`
-	`_else_`
-		`_rate is 16%._`
+	`else if sales is less than $22,000`
+		`rate is 14%.`
+	`else`
+		`rate is 16%.`
