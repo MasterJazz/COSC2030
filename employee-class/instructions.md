@@ -15,8 +15,8 @@ The class should have the following constructors:
 
 Write appropriate mutator functions that store values in these member variables and accessor functions that return the values in these member variables. Once you have written the class, write a separate program that creates three Employee objects to hold the following data.
 
-| Name | ID | Number | Department | Position |
-| ---- | ----------- | ---------- | -------- |
+| Name | ID Number | Department | Position |
+| ---- | --------- | ---------- | -------- |
 | Susan Meyers | 47899 | Accounting | Vice President |
 | Mark Jones | 39119 | IT | Programmer |
 | Joy Rogers | 81774 | Manufacturing | Engineer |
