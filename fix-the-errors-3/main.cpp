@@ -1,6 +1,6 @@
 //
-// Name
-// Date
+// Matthew Sleight
+// January 13, 2025
 // Fix the Errors #3 Programming Project
 // COSC 2030
 //
@@ -17,6 +17,8 @@ int main()
 
 	float firstNumber;
 	float secondNumber;
+	int saveOne = firstNumber;
+	int saveTwo = secondNumber;
 
 	// Prompt user to enter the first number.
 	cout << "Enter the first number" << endl;
@@ -33,9 +35,9 @@ int main()
 		<< " and " << secondNumber << endl;
 
 	// Now we will swap the values.
-	firstNumber = secondNumber; secondNumber = firstNumber;
+	saveTwo = firstNumber; saveOne = secondNumber;
 
 	// Output the values.
 	cout << "After swapping, the values of the two numbers are "
-		<< firstNumber << " and " << secondNumber << endl; return 0;
+		<< saveOne << " and " << saveTwo << endl; return 0;
 }
