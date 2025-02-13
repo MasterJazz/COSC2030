@@ -35,7 +35,7 @@ int main() {
     // Open the file to read existing items (if any)
     inputFile.open(fileName, ios::in);
 
-    // Open the file to add new items (if it doesn't exist, creat it)
+    // Open the file to add new items (if it doesn't exist, create it)
     outputFile.open(fileName, ios::app);
 
     // Check if the files were opened successfully
