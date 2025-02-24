@@ -10,7 +10,7 @@
 // g++ main.cpp Question.cpp -o output
 
 #include <iostream>
-#include <cstdlib>      // For srand() and rand()
+#include <random>      // For srand() and rand()
 #include <ctime>
 #include "Question.h"
 
