@@ -15,22 +15,21 @@ class Numbers {
     private:
         int number;     // The number to translate into English description
     
+        // Statis arrays for translating numbers
+        static const vector<string> lessThanTwenty; // Holds words for numbers 0-19
+        static const vector<string> tens;           // Holds words for multiples of ten (20, 30, etc.)
+        static const string hundred;                // Word for "hundred"
+        static const string thousand;               // Word for "thousand"
+
+        // Helper function to handle the conversion of numbers to English words
+        string numberToWords(int num);
+    
     public:
         // Constructor to initialize the number
         Numbers(int num);
         
         // Function to print the English description of the number
         void print();
-
-    private:
-        // Helper function to handle the conversion of numbers to English words
-        string numberToWords(int num);
-
-        // Statis arrays for translating numbers
-        static const vector<string> lessThanTwenty; // Holds words for numbers 0-19
-        static const vector<string> tens;           // Holds words for multiples of ten (20, 30, etc.)
-        static const string hundred;                // Word for "hundred"
-        static const string thousand;               // Word for "thousand"
 };
 
 // Statis arrays for number translations
