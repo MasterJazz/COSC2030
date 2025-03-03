@@ -32,6 +32,12 @@ class Employee {
         string getEmployeeNumber() const;
         string getHireDate() const;
 
+        // Validation function
+        bool isValidEmpNum(string e) const;
+
+        // Convert object to string
+        string toString() const;
+
         // Display function
         void display() const;
 };

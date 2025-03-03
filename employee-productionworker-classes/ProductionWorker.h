@@ -34,6 +34,9 @@ class ProductionWorker : public Employee {
         int getShift() const;
         double getPayRate() const;
 
+        // Convert object to string
+        string toString() const;
+
         // Display function
         void display() const;
 };
